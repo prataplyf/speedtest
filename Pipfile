@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+notebook = "*"
+
+[packages]
+flask = "*"
+pymongo = "*"
+flask-pymongo = "*"
+gunicorn = "*"
+dnspython = "*"
+favicon = "*"
+nose = "*"
+cython = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"
